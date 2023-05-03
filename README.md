@@ -1,4 +1,4 @@
-# Angular by iFood - DIO
+# :a:ngular by iFood - DIO :hamburger:	
 Repositório para armazenar o que foi ensinado no bootcamp.
 
 ## Links:
