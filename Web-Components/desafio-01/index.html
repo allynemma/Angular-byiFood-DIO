@@ -7,7 +7,7 @@
     <title>PORTAL DE NOTÍCIAS GALACTICA</title>
     <link rel="stylesheet" href="/styles/card.css">
     <script src="/src/Components/CardNews.js" defer></script>
-    <script src="/src/Components/TituloDinamico.js" defer></script>
+    
 </head>
 <body>
     <div class="container">
@@ -18,13 +18,31 @@
                 <p>Darth Vader procura desenvolvedores que sabem trabalhar com componentes</p>
             </div>
             <div class="card_right">
-                <img src="/assets/darth-vader.jpg" alt="">
+                <img src="/assets/Vader-Cafe.jpg" alt="Darth Vader tomando café de gravata">
             </div>
         </div>
     </div>
 
-    <card-news></card-news>
-    <titulo-dinamico titulo="NOTICIA URGENTE"></titulo-dinamico>
-    <titulo-dinamico titulo="Novo titulo"></titulo-dinamico>
-</body>
+    <card-news 
+        author="Allyne" 
+        title="Darth Vader Contrata Devs"
+        link-news="https://www.google.com"
+        content="Darth Vader procura desenvolvedores que sabem trabalhar com componentes"
+        link-foto="/assets/Vader-Cafe.jpg"
+        alt="Darth Vader tomando café de gravata"
+        >
+    </card-news>
+
+    <card-news 
+    author="Stormtrooper"
+    title="DESAFIO"
+    link-news="github.com"
+    content="Procura-se dev front-end que entenda de componentização, AMBIENTE AMIGÁVEL E SEM PRESSÃO. O dev irá trabalhar em um projeto solidário carinhosamente chamado de ESTRELA DA MORTE. SALÁRIO: Você quem vai querer pagar para trabalhar aqui"
+    link-foto="https://rollingstone.uol.com.br/media/_versions/darth_vader_div_lucasfilm_widelg.jpg"
+    alt="Darth Vader sendo mal"
+    >
+</card-news>
+
+<card-news></card-news>
+    </body>
 </html>
